@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./earth.jpg);
+    color:aquamarine;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1%;
+    padding-inline: 3%;
+    align-items: center;
+    background-color: rgb(93, 88, 100);
+    top:0;
+    position: sticky;
+}
+
+.nav-bar img{
+    cursor: pointer;
+}
+.nav-bar img:hover{
+    opacity: 0.7;
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-inline: 10px;  
+    color: rgb(20, 255, 251); 
+    box-shadow: 0px 2px 10px 2px black;
+    padding-block: 10px;
+    padding-inline: 15px;
+    border-radius: 10px;
+}
+
+.nav-list a:hover{
+    opacity: 0.7;
+    box-shadow: 0px 2px 10px 2px rgb(55, 49, 61);
+}
+
+.header{
+    text-align: center;
+    padding-block: 15px;
+    text-align: center;
+    word-spacing: 5px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    color: rgb(0, 247, 255);
+    font-size: 30px;
+    animation:anime 5s linear 2s infinite alternate;
+}
+
+@keyframes anime{
+    0%   {color:red; }
+    25%  {color:yellow; }
+    50%  {color:blue; }
+    75%  {color:green; }
+    100% {color:red;}
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-inline: 50px;
+    margin-block: 30px;
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.card{
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 2px white;
+}
+
+.card-info{
+    display: flex;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-inline: 20px;
+}
+
+.card-details label{
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.card-details label span{
+    color: red;
+    font-weight: 800;
+    font-size: 20px;
+}
+.image{
+    margin-inline: 20px; 
+}
+
+.image img{
+    width: 150px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 2px white;
+}
+
+.btns{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btns a{
+    text-decoration: none;
+    padding-inline:20px ;
+    padding-block: 8px;
+    border-radius: 5px;
+    background-color: rgb(20, 114, 114);
+    color:white;
+    margin-inline: 20px;
+    box-shadow: 0px 2px 10px 2px white;
+}
+.btns a:hover{
+    background-color: rgb(66, 255, 255);
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px 2px black;
+}
+
+/* Resposive */
+@media screen and (max-width:605px) {
+    .nav-info{
+        padding-inline: 5px;
+    }
+ 
+    .nav-list a{
+        font-size: 14px;
+        margin-inline: 8px;  
+        padding-block: 10px;
+        padding-inline: 8px;
+    } 
+    .header{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .nav-info{
+        padding-inline: 5px;
+    }
+ 
+    .nav-list a{
+        font-size: 12px;
+        margin-inline: 8px;  
+        padding-block: 5px;
+        padding-inline: 8px;
+    } 
+    .nav-bar img{
+        width: 30px;
+        height: 30px;
+    }
+    .header{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:440px) {
+    .nav-info{
+        padding-inline: 5px;
+    }
+ 
+    .nav-list a{
+        font-size: 12px;
+        margin-inline: 3px;  
+        padding-block: 5px;
+        padding-inline: 8px;
+    } 
+    .nav-bar img{
+        width: 30px;
+        height: 30px;
+    }
+    .header{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .nav-info{
+        padding-inline: 2px;
+    }
+    .nav-list a{
+        font-size: 12px;
+        margin-inline: 2px;  
+        padding-block: 5px;
+        padding-inline: 4px;
+    } 
+    .nav-bar img{
+        width: 30px;
+        height: 30px;
+    }
+    .header{
+        font-size: 20px;
+    }
+}

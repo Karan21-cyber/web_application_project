@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(deer.jpg);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1%;
+    padding-inline: 3%;
+    align-items: center;
+    background-color: rgb(93, 88, 100);
+    top:0;
+    position: sticky;
+}
+
+.nav-bar img{
+    cursor: pointer;
+}
+.nav-bar img:hover{
+    opacity: 0.7;
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-inline: 10px;  
+    color: rgb(20, 255, 251); 
+    box-shadow: 0px 2px 10px 2px black;
+    padding-block: 10px;
+    padding-inline: 15px;
+    border-radius: 10px;
+}
+
+.nav-list a:hover{
+    opacity: 0.7;
+    box-shadow: 0px 2px 10px 2px rgb(55, 49, 61);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 100px;
+    width: 600px;
+    margin-inline: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 2px rgb(150, 153, 153);
+}
+
+form{
+    margin-block: 50px;
+}
+
+.container h1{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(234, 255, 0);
+    font-size: 30px;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.form-data label{
+    color: rgb(174, 235, 255);
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.form-data input{
+    margin-block: 4px;
+    width: 450px;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(138, 255, 239);
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(123, 123, 131) inset;
+}
+
+.form-data select{
+    margin-block: 4px;
+    width: 450px;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(53, 74, 71);
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(123, 123, 131) inset;
+}
+
+.btns input{
+    margin-top:20px;
+    font-size: 15px;
+    padding-inline: 20px;
+    padding-block: 8px;
+    background-color: rgb(19, 121, 39);
+    border: none;
+    border-radius: 5px;
+    margin-inline: 10px;
+    color: rgb(249, 255, 240);
+    box-shadow: 0px 3px 10px 2px rgb(39, 56, 58);
+}
+
+.btns input:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 2px black;
+}
+
+.error{
+    color:red;
+}
+
+.imagefile{
+    padding-top: 7px;
+    border: none;
+    background-color: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:750px) {
+    .container{
+        margin-inline: 10%;
+        width:500px;
+    }
+    .nav-list a{
+        font-size: 14px;
+        margin-inline: 8px;  
+        padding-block: 10px;
+        padding-inline: 8px;
+    } 
+}
+
+@media screen and (max-width:590px) {
+    .container{
+        margin-inline: 5%;
+    }
+    form{
+        margin-block: 35px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    
+    .container{
+        margin-inline: 5%;
+        width: 400px;
+    }
+    .nav-list a{
+        font-size: 12px;
+        margin-inline: 8px;  
+        padding-block: 5px;
+        padding-inline: 8px;
+    } 
+    .nav-bar img{
+        width: 30px;
+        height: 30px;
+    }
+        
+    form{
+        margin-block: 20px;
+    }
+
+    .form-data input{
+        width: 350px;
+    }
+
+    .form-data select{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:445px) {
+   
+    .container{
+        margin-inline: 30px;
+        width: 320px;
+    }
+    .nav-list a{
+        font-size: 12px;
+        margin-inline: 3px;  
+        padding-block: 5px;
+        padding-inline: 8px;
+    } 
+    .nav-bar img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .form-data input{
+        width: 300px;
+    }
+
+    .form-data select{
+        width: 300px;
+    }
+   
+}
+
+
+@media screen and (max-width:380px) {
+   
+    .nav-list a{
+        font-size: 12px;
+        margin-inline: 2px;  
+        padding-block: 5px;
+        padding-inline: 4px;
+    } 
+    .nav-bar img{
+        width: 30px;
+        height: 30px;
+    }
+    .form-data input{
+        width: 280px;
+    }
+
+    .form-data select{
+        width: 280px;
+    }
+    
+}

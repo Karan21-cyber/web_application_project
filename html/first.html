@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My web document</title>
+    </head>
+        <style>
+            body{
+                overflow-wrap: break-word;
+                height: 650px;
+                margin-inline: 20px;
+            }
+        </style>
+    <body>
+        <h1>Fundamentals of HTML</h1>
+        <h3>Text Formatting</h3>
+        
+        <p>
+            A paragraph with <i>some words that are emphasized</i> and 
+            <b>some imortant words.</b> Followed by some <span style="background-color: yellow;">highlighted words</span>.
+            Feel free to add any other text formatting that appeals to you.
+        </p>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            This is some text <br>
+            that is laid out exactly as <br>
+            Laid out at code level without any additional<br>
+            markup
+        </p>
+
+        <h3>Special Characters</h3>
+        <p>
+            The browser thinks &lsaquo; is a programming character. Also &rsaquo;. The browser also ignores any line breaks<br>
+            in your code and any &emsp; white space. To include these you need to use special characters aka html character entities. There are other entities available such as &pound; and &;
+        </p>
+
+        <h3>Links</h3>
+
+        <p>
+            A web page without any links is a unique and peculiar find. You can have links to separate sites such as <a href="https://www.leedsbeckett.ac.uk/">Leeds Beckett</a>.
+            Links to other pages of the <a href="second.html">same site</a>. Links to another point in the <a href="#">same page</a>.
+        </p>
+
+        <h3>Images</h3>
+        <p>
+              
+            This image is stored on this server in an image sub-folder <img src="https://static.vecteezy.com/system/resources/previews/006/965/452/original/box-realistic-design-3d-blue-gift-boxes-with-ribbon-on-blue-background-3d-rendering-of-box-for-holiday-surprise-for-web-app-illustration-vector.jpg" width="120px" height="120px" alt="gift" style="border-radius: 50%;" ><br>
+            I hope you added an alt attribute to support screen readers<br>
+            Why not check to see what happens if you try to validate your code using W3C Markup Validation Service without the alt attribute included. If you right click on your page and chose inspect or view source you can check your code and see the HTML comment you have added just inside the body tag.
+        </p>
+
+        <a href="second.html">Second html</a>
+    </body>
+</html>

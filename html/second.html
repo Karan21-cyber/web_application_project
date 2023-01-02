@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My web document</title>
+</head>
+<style>
+    body{
+        width: 1000px;
+        border: 1px solid black;
+        padding-inline: 50px;
+        margin-inline:18% ;
+    }
+</style>
+<body>
+    <a href="../activities.php">Back To Home</a>
+    <h1>More Fundamentals of HTML</h1>
+    <h3>Tables</h3>
+
+    <p>
+        Tables should only be used for tabulated data and not for page layout. As with all other HTML elements tables should be styled with CSS but we will bend the rule slightly and use the border attribute for this exercise
+
+    </p>
+
+   <table border="1px solid black">
+    <caption>this caption helps screen reader users to understand the table</caption>
+     <tr>
+        <th>One</th>
+        <th>two</th>
+        <th>three</th>
+    </tr>
+    <tr>
+        <td>This</td>
+        <td>That</td>
+        <td>Other</td>
+    </tr>
+    <tr>
+        <td>Which</td>
+        <td>What</td>
+        <td>When</td>
+    </tr>
+   </table>
+
+   <h3>Lists</h3
+    <p>Lists are very important in web page design, they are for example the basis of page navigation</p>
+    <h3>Unordered Lists</h3>
+        <ul type="square">
+            <li>blue</li>
+            <li>red</li>
+            <li>green</li>
+        </ul>
+    <h3>Ordered Lists</h3>
+        <ol type="1">
+            <li>blue</li>
+            <li>red</li>
+            <li>green</li>
+        </ol>
+    <h3>Nested Lists</h3>
+        <ol type="1">
+            <li>one</li>
+            <li>two</li>
+            <ol type="a">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <li>three</li>
+        </ol>
+
+    <h3>Forms</h3>
+    <form>
+        <fieldset>
+            <legend>Enter your login details</legend>
+            <label>Username: </label>
+            <input type="text" >
+            <lable>Password: </lable>
+            <input type="password" >
+        </fieldset>
+    </form>
+
+    <h4>A simple login form</h4>
+    <form>
+        
+        <fieldset>
+            <legend>Pizza Selection</legend>
+            <p>Size:
+                <input type="radio" id= "small" name = "size" value="small"> 
+                <label for ="small">small</label>
+                <input type="radio" id="medium" name="size" value="medium"> 
+                <label for="medium">medium</label>
+                <input type="radio" id = "large" name="size" value="large"> 
+                <label for="large">large</label>
+            </p>
+            <p>Topping: 
+                <select>
+                    <option>Please Select</option>
+                    <option>Chicken and Mushroom</option>
+                    <option>Mutton and Mushroom</option>
+                    <option>Veg and Mushroom </option>
+                    <option>Buff and Mushroom</option>
+                </select>
+            </p>
+            <p>Extras:
+                <input type="checkbox">
+                <label>Pamesan</label>
+                <input type="checkbox">
+                <label>Olives</label>
+                <input type="checkbox">
+                <label>Capers</label>
+            </p>
+        </fieldset>
+        <button>Submit</button>
+        <button>Clear</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,108 @@
+[31-Dec-2022 10:36:22 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:22 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:22 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:27 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:27 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:27 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:29 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:29 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:29 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:32 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:32 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:32 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:36 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:36 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:36 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:38 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:38 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:38 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:38 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:38 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:38 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:49 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:49 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:49 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:54 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:36:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:36:54 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:36:54 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:37:06 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 10:37:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 10:37:06 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 10:37:06 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 11:16:56 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[31-Dec-2022 11:16:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[31-Dec-2022 11:16:56 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[31-Dec-2022 11:16:56 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[01-Jan-2023 01:25:23 America/Chicago] PHP Warning:  Undefined array key "price" in /home1/kara7911/public_html/search/user/displayProducts.php on line 28
+[01-Jan-2023 01:25:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/search/user/dashboard.php:4) in /home1/kara7911/public_html/search/user/displayProducts.php on line 30
+[01-Jan-2023 01:25:23 America/Chicago] PHP Warning:  Undefined variable $sql in /home1/kara7911/public_html/search/user/displayProducts.php on line 46
+[01-Jan-2023 01:25:23 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home1/kara7911/public_html/search/user/displayProducts.php:46
+Stack trace:
+#0 /home1/kara7911/public_html/search/user/displayProducts.php(46): mysqli_query(Object(mysqli), '')
+#1 /home1/kara7911/public_html/search/user/dashboard.php(54): include('/home1/kara7911...')
+#2 {main}
+  thrown in /home1/kara7911/public_html/search/user/displayProducts.php on line 46

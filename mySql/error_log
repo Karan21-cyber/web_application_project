@@ -1,0 +1,2 @@
+[01-Jan-2023 01:19:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/mySql/connection.php:9) in /home1/kara7911/public_html/mySql/insertRecord.php on line 21
+[01-Jan-2023 01:23:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/kara7911/public_html/mySql/connection.php:9) in /home1/kara7911/public_html/mySql/insertRecord.php on line 22

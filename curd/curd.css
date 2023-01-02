@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(70, 70, 74);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    width: 600px;
+    margin-inline: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 2px rgb(0, 0, 0);
+}
+.form h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-block: 15px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(20, 114, 114);
+}
+
+form{
+    margin-block: 30px;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    margin-block: 20px;
+    margin-inline: 20px;
+}
+.form-data label{
+    color: rgb(66, 208, 255);
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.form-data input{
+    margin-block: 4px;
+    width: 450px;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(186, 237, 255);
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(123, 123, 131) inset;
+}
+
+
+.btns input{
+    margin-top:20px;
+    font-size: 15px;
+    padding-inline: 30px;
+    padding-block: 5px;
+    background-color: rgb(20, 114, 114);
+    border: none;
+    border-radius: 5px;
+    margin-inline: 20px;
+    color: white;
+    box-shadow: 0px 3px 10px 2px rgb(39, 56, 58);
+}
+
+.btns input:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 2px black;
+}
+
+.displayProducts{
+    display: flex;
+    justify-content: center;
+    margin-block:50px;
+}
+
+h2{
+    text-align: center;
+    padding-block: 15px;
+    color:white;
+}
+
+table{
+    color: aqua;
+}
+table tr th{
+    background-color: rgb(20, 114, 114);
+    color: white;
+    padding-inline:50px;
+    padding-block: 10px;
+}
+table tr td{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid  rgb(20, 114, 114);
+}
+table tr td a{
+    text-decoration: none;
+    padding-inline:20px ;
+    padding-block: 8px;
+    border-radius: 5px;
+    background-color: rgb(20, 114, 114);
+    color:white;
+}
+
+table tr td a:hover{
+    background-color: rgb(66, 255, 255);
+    color:rgb(0, 0, 0);
+}

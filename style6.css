@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300&family=Tangerine&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    background-color: rgb(50, 50, 68);
+}
+
+header{
+    display:flex;
+    background-color: rgb(47, 56, 79);
+    position: sticky;
+    justify-content: space-between;
+    box-shadow: 5px 0px 10px 0px black;
+}
+
+.navbar{
+    margin-block: 30px;
+}
+
+.navbar a{
+    margin-inline: 20px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aqua;
+    box-shadow: 0px 3px 10px 2px black;  
+}
+.navbar a:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0px 3px 10px 2px rgb(39, 56, 58);
+}
+
+.logo{
+    width: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin :20px;
+    box-shadow: 0px 3px 10px 2px black;  
+}
+
+.logo:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 2px rgb(39, 56, 58);
+}
+
+.intro{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: cadetblue;
+    font-size: 50px;
+    animation:anime 5s linear 2s infinite alternate;
+}
+
+@keyframes anime{
+    0%   {color:red; }
+    25%  {color:yellow; }
+    50%  {color:blue; }
+    75%  {color:green; }
+    100% {color:red;}
+}
+
+.uni-intro{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.uni-intro h2{
+    font-size: 30px;
+    font-weight: 600 ;
+    color: rgb(88, 183, 195);
+}
+
+.uni-intro h3{
+    font-size: 25px;
+    font-weight: 600 ;
+    color: rgb(95, 88, 195);
+}
+.uni-intro h3 span{
+    font-size: 25px;
+    font-weight: 600 ;
+    font-style: italic;
+    color: rgb(76, 178, 222);
+}
+.dots{
+    display:flex;
+    margin-top: 12%;
+    gap: 20px;
+    height: 50px;
+    justify-content: center;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation: movingdot 5s linear 2s infinite alternate;
+}
+.dot1{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 153);
+    border-radius: 50%;
+    animation: movingdot1 5s linear 2s infinite alternate;
+}
+.dot2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 50%;
+    animation: movingdot2 5s linear 2s infinite alternate;
+}
+
+@keyframes movingdot{
+    0%   {background-color:red;  transform: translateY(0);}
+    25%  {background-color:yellow; transform: translateY(-100px)}
+    50%  {background-color:blue; transform: translateY(0);}
+    75%  {background-color:green; transform: translateY(-100px)}
+    100% {background-color:red; transform: translateY(0);}
+}
+
+
+@keyframes movingdot1{
+    0%   {background-color:yellow;  transform: translateY(-100px);}
+    25%  {background-color:blue;transform: translateY(0);}
+    50%  {background-color:green;  transform: translateY(-100px);}
+    75%  {background-color:red; transform: translateY(0);}
+    100% {background-color:yellow; transform: translateY(-100px);}
+}
+
+
+@keyframes movingdot2{
+    0%   {background-color:blue;transform: translateY(0);}
+    25%  {background-color:green; transform: translateY(-100px);}
+    50%  {background-color:red;  transform: translateY(0);}
+    75%  {background-color:yellow; transform: translateY(-100px);}
+    100% {background-color:blue;  transform: translateY(0);}
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:560px) {
+    .navbar a{
+        margin-inline: 10px;
+        padding-inline: 10px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .navbar a{
+        margin-inline: 5px;
+        padding-inline: 10px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    
+.logo{
+    width: 30px;
+    width: 30px;
+}
+}

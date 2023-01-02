@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../moon.jpg); 
+    overflow: hidden;
+    position: absolute;
+}
+
+.error{
+    color:red;
+}
+
+
+header{
+    display:flex;
+    background-color: rgb(47, 56, 79);
+    position: sticky;
+    justify-content: space-between;
+    box-shadow: 5px 0px 10px 0px black;
+}
+
+.navbar{
+    margin-block: 30px;
+}
+
+.navbar a{
+    margin-inline: 20px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aqua;
+    box-shadow: 0px 3px 10px 2px black;  
+}
+.navbar a:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0px 3px 10px 2px rgb(39, 56, 58);
+}
+
+.logo{
+    width: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin :20px;
+    box-shadow: 0px 3px 10px 2px black;  
+}
+
+.logo:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 2px rgb(39, 56, 58);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 50px;
+    width: 600px;
+    margin-inline: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 2px rgb(150, 153, 153);
+}
+
+form{
+    margin-block: 20px;
+}
+
+.title{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(206, 243, 2);
+    font-size: 30px;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.form-data label{
+    color: rgb(151, 220, 242);
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.form-data input{
+    margin-block: 4px;
+    width: 450px;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(130, 170, 185);
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(123, 123, 131) inset;
+}
+
+.form-data > select{
+    margin-block: 4px;
+    width: 450px;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(53, 74, 71);
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(123, 123, 131) inset;
+}
+.check-box{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.condition{
+    color: white;
+    font-size: 15px;
+}
+
+.login{
+    margin-top: 10px;
+    color:rgb(255, 252, 207);
+    font-size: 15px;
+}
+
+.login a{
+    text-decoration: none;
+    color: rgb(18, 248, 18);
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.btns{
+    margin-top: 20px;
+}
+
+.btns input{
+    font-size: 15px;
+    padding-inline: 20px;
+    padding-block: 8px;
+    background-color: rgb(11, 150, 50);
+    border: none;
+    border-radius: 5px;
+    margin-inline: 10px;
+    color: rgb(188, 255, 87);
+    box-shadow: 0px 3px 10px 2px rgb(39, 56, 58);
+   
+}
+
+.btns input:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 2px black;  
+}
+
+/* Responsive */
+
+@media screen and (max-width:750px) {
+    .container{
+        margin-inline: 10%;
+        width:500px;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .container{
+        margin-inline: 5%;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .navbar a{
+        margin-inline: 10px;
+        padding-inline: 10px;
+        font-weight: 400;
+    }
+    .container{
+        margin-inline: 5%;
+        width: 400px;
+    }
+    .form-data input{
+        width: 300px;
+    }
+    .form-data > select{
+        width:300px;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .navbar a{
+        margin-inline: 5px;
+        padding-inline: 10px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .container{
+        margin-inline: 30px;
+        width: 320px;
+    }
+    
+    .logo{
+        width: 30px;
+        width: 30px;
+    }
+}

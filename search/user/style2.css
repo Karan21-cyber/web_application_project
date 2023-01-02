@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%; 
+    overflow-x: hidden;
+    height: 95vh;
+    background-color: rgb(80, 67, 90);
+}
+
+.nav-info{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-block: 20px;
+    background-color: rgb(82, 74, 89);
+    box-shadow: 0px 1px 10px 0px black;
+    position: sticky;
+    z-index: 100%;
+}
+.nav-info label{
+    font-size: 20px;
+    color: aqua;
+}
+.nav-info label span{
+    color:rgb(255, 96, 4)
+}
+
+.nav-info form{
+    display:flex;
+    flex: 1;
+    align-items: center;
+    padding-inline: 10%;
+    
+}
+.search-box{
+    height: 12px;
+    padding: 12px;
+    border: none;
+    width: 80%;
+    border-radius: 20px;
+    background: transparent;
+    color: aquamarine;
+    box-shadow: 0px 1px 10px 1px rgb(19, 19, 19) inset;
+}
+.search-btn{
+    padding-inline: 20px;
+    padding-block: 8px;
+    border-radius: 20px;
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    color: aquamarine;
+    box-shadow: 0px 1px 10px 1px rgb(19, 19, 19);
+}
+.search-btn:hover{
+    box-shadow: 0px 1px 10px 1px rgb(53, 43, 58);
+    cursor: pointer;
+}
+
+.nav-info a{
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    padding-inline: 15px;
+    padding-block: 8px;
+    box-shadow: 0px 1px 10px 1px rgb(19, 19, 19);
+}
+
+.nav-info a:hover{
+    box-shadow: 0px 1px 10px 1px rgb(53, 43, 58);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.filter-section{
+    width: 21%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-inline: 30px;
+}
+
+hr{
+    position: relative;
+    top: -10px;
+    background: none;
+    box-shadow: 1px 2px 10px 2px black;
+}
+
+.filter-section h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(222, 202, 216);
+    padding-inline: 50px;
+}
+
+
+.filter-section select{
+    width: 60%;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    color: rgb(255, 0, 81);
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 10px 1px rgb(19, 19, 19) inset;
+
+}
+
+.filterbtn{
+    width: 20%;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 5px;
+    color: rgb(255, 0, 81);
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 10px 1px rgb(19, 19, 19);
+}
+
+.filterbtn:hover{
+    box-shadow: 0px 1px 10px 1px rgb(53, 43, 58);
+    cursor: pointer;
+}
+.filter-section label{
+    font-size: 18px;
+    color: rgb(255, 0, 81);
+    margin-left: 10px;
+}
+.selection{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    background:rgb(255, 0, 81) ;
+}
+
+.gobtn{
+    width: 20%;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 5px;
+    color: rgb(255, 0, 81);
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 10px 1px rgb(19, 19, 19);
+}
+
+.gobtn:hover{
+    box-shadow: 0px 1px 10px 1px rgb(53, 43, 58);
+    cursor: pointer;
+}
+
+.products{
+    width: 79%;
+    height: 85vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.products h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(222, 202, 216);
+    padding-inline: 50px;
+    text-align: center;
+}
+
+.product-items{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-details{
+    display: flex; 
+    width: 400px;
+    justify-content: space-between;
+    margin-block: 10px;
+    margin-inline: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 2px black;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 15px;
+    border-radius: 10px; 
+    gap: 10px; 
+}
+
+.product-info label{
+    font-size: 20px;
+    color: aqua;
+}
+
+.product-info label span{
+    padding-left: 10px;
+    font-weight: 800;
+    color: rgb(255, 0, 81);
+}
+
+.product-details img{
+    width: 120px;
+    height: 135px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 2px white;
+}
+
+/* Responsive */
+@media screen  and (max-width:1200px){
+    .filter-section{
+        width: 30%;
+    }    
+    .products{
+        width: 70%;
+    }
+    .product-details{
+        width: 450px;
+    }
+}
+
+@media screen  and (max-width:1000px){
+    .filter-section{
+        width: 30%;
+    }    
+    .products{
+        width: 70%;
+    }
+    .product-details{
+        width: 450px;
+    }
+}
+@media screen  and (max-width:850px){
+    .filter-section{
+        width:32%;
+    }    
+    .products{
+        width: 68%;
+    }
+    .product-details{
+        width: 380px;
+    }
+}
+
+
+@media screen  and (max-width:768px){
+    .container{
+        display: flex;
+        padding-top: 20px;
+        max-width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .filter-section{
+        width:100%;
+    }    
+    .products{
+        width: 100%;
+    }
+    .product-details{
+        width: 450px;
+    }
+    .nav-info form{
+        padding-inline: 5px;
+    }
+    .search-box{
+        width: 100%;
+    }
+}
+
+@media screen  and (max-width:768px){
+    .nav-info label{
+        font-size: 12px;
+        color: aqua;
+    }
+    .nav-info label span{
+        color:rgb(255, 96, 4)
+    }
+}
+
+@media screen  and (max-width:480px){
+    .product-details{
+        width: 350px;
+    }
+
+    .nav-info label{
+        font-size: 12px;
+        color: aqua;
+    }
+    .nav-info label span{
+        color:rgb(255, 96, 4)
+    }
+    .search-btn{
+        padding-inline: 5px;
+        padding-block: 8px;
+        border-radius: 15px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .nav-info{
+        padding-inline:10px;
+        padding-block: 10px;
+    }
+    
+    .nav-info a{
+        border-radius: 5px;
+        padding-inline: 8px;
+        padding-block: 10px;
+        font-size: 12px;
+        box-shadow: 0px 1px 10px 1px rgb(19, 19, 19);
+    }
+
+}
